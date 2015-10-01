@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.raghavbabu.myapp.activity.SignUpActivity">
+
+    <EditText android:id="@+id/signup_username"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_username"/>
+
+    <EditText android:id="@+id/signup_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_password" />
+
+    <EditText android:id="@+id/signup_confirmpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_confirmpassword" />
+
+    <EditText android:id="@+id/signup_mailid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_mailid"/>
+
+    <Button android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_submit"
+        android:onClick="submitSignUpMessage"/>
+
+
+
+</LinearLayout>
